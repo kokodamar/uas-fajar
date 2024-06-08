@@ -1,0 +1,66 @@
+.base-project-cover {
+  display: flex;
+  flex-direction: column;
+  height: 796px;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px 80px 60px;
+  position: relative;
+  background-color: #5f2bf3;
+}
+
+.base-project-cover .project-title {
+  display: flex;
+  flex-direction: column;
+  width: 1447px;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+  margin-right: -7px;
+}
+
+.base-project-cover .text-wrapper {
+  position: relative;
+  width: 611px;
+  height: 90px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--textinverse-textinverse);
+  font-size: 72px;
+  text-align: center;
+  letter-spacing: -0.36px;
+  line-height: normal;
+}
+
+.base-project-cover .navbar {
+  display: flex;
+  flex-direction: column;
+  width: 1410px;
+  height: 60px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.base-project-cover .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--textinverse-textinverse);
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.base-project-cover .span {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: 20px;
+}

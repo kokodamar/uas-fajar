@@ -1,0 +1,117 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .cover .base-project-cover {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 80px 60px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #5f2bf3;
+  }
+  
+  .cover .project-title {
+    display: flex;
+    flex-direction: column;
+    width: 1434px;
+    height: 190px;
+    justify-content: center;
+    padding: 10px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .cover .base-team-avatar {
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -25.5px;
+    margin-left: -4px;
+  }
+  
+  .cover .project-champion {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .cover .img {
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -3px;
+    margin-bottom: -5px;
+    margin-left: -4px;
+    margin-right: -4px;
+  }
+  
+  .cover .text-wrapper {
+    position: relative;
+    width: 957px;
+    height: 115px;
+    margin-bottom: -21.5px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--textinverse-textinverse);
+    font-size: 72px;
+    text-align: right;
+    letter-spacing: -0.36px;
+    line-height: normal;
+  }
+  
+  .cover .name {
+    position: relative;
+    width: 1091px;
+    height: 453px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--textinverse-textinverse);
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+  
+  .cover .tags-release-date {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #3f19ac;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0px 1px 4px #00000026;
+  }
+  
+  .cover .icon-calendar {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .cover .label {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
